@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Search - LinkedIn Style</title>
+    <link rel="stylesheet" href="job.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="navbar">
+      <div class="logo">
+        <img id="logo_img" src="alum_new_logo.png" alt="Logo" />
+      </div>
+      <ul class="nav_collection">
+        <li><a class="nav_item" href="index.html">Home</a></li>
+        <li><a class="nav_item" href="job.html">Job Portal</a></li>
+        <li><a class="nav_item" href="donation.html">Donation</a></li>
+        <li><a class="nav_item" href="announcement.html">Announcement</a></li>
+      </ul>
+    </div>
+    <section id="prof">
+      <i id="profile" class="fa-solid fa-user"></i>
+    </section>
+    <button id="menu_button">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <div id="sidebar">
+      <button id="close_button">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <ul class="sidebar_nav">
+        <li><a class="nav_item" href="index.html">Home</a></li>
+        <li><a class="nav_item" href="job.html">Job Portal</a></li>
+        <li><a class="nav_item" href="donation.html">Donation</a></li>
+        <li><a class="nav_item" href="announcement.html">Announcement</a></li>
+      </ul>
+    </div>
+
+    <section class="search-section">
+      <div class="search-bar">
+        <input
+          type="text"
+          id="job-title"
+          placeholder="Job title, keywords, or company"
+        />
+        <input type="text" id="location" placeholder="Location" />
+        <button onclick="searchJobs()">Search</button>
+      </div>
+    </section>
+
+    <section class="results-section">
+      <div id="results-container">
+        <!-- Sample Search Results -->
+        <div class="job-card">
+          <h2>Software Engineer</h2>
+          <p class="company">Tech Solutions Inc.</p>
+          <p class="location">New York, NY</p>
+          <p>
+            Develop and maintain web applications. Required skills: JavaScript,
+            Python, React.
+          </p>
+          <button class="apply-button">Apply</button>
+        </div>
+        <div class="job-card">
+          <h2>Data Analyst</h2>
+          <p class="company">DataWorks</p>
+          <p class="location">San Francisco, CA</p>
+          <p>
+            Analyze and interpret complex data sets. Required skills: SQL,
+            Python, Tableau.
+          </p>
+          <button class="apply-button">Apply</button>
+        </div>
+      </div>
+    </section>
+
+    <script src="job.js"></script>
+  </body>
+</html>
