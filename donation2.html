@@ -1,65 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="donation2.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="donation2.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
     <!-- navbar -->
     <div class="navbar">
-        <div class="logo"><img id="logo_img" src="alum_new_logo.png" alt="Logo"></div>
-        <ul class="nav_collection">
-            <li><a class="nav_item" href="#">Home</a></li>
-            <li><a class="nav_item" href="#">Job Portal</a></li>
-            <li><a class="nav_item" href="donation.html">Donation</a></li>
-            <li><a class="nav_item" href="#">Announcement</a></li>
-        </ul>
+      <div class="logo">
+        <img id="logo_img" src="alum_new_logo.png" alt="Logo" />
+      </div>
+      <ul class="nav_collection">
+        <li><a class="nav_item" href="#">Home</a></li>
+        <li><a class="nav_item" href="job.html">Job Portal</a></li>
+        <li><a class="nav_item" href="donation.html">Donation</a></li>
+        <li><a class="nav_item" href="announcement.html">Announcement</a></li>
+      </ul>
     </div>
     <section id="prof">
-        <i id="profile" class="fa-solid fa-user"></i>
+      <i id="profile" class="fa-solid fa-user"></i>
     </section>
     <button id="menu_button">
-        <i class="fa-solid fa-bars"></i>
+      <i class="fa-solid fa-bars"></i>
     </button>
-    
+
     <div id="sidebar">
-        <button id="close_button">
-            <i class="fa-solid fa-xmark"></i>
-        </button>
-        <ul class="sidebar_nav">
-            <li><a class="nav_item" href="#">Home</a></li>
-            <li><a class="nav_item" href="#">Job Portal</a></li>
-            <li><a class="nav_item" href="donation.html">Donation</a></li>
-            <li><a class="nav_item" href="#">Announcement</a></li>
-        </ul>
+      <button id="close_button">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <ul class="sidebar_nav">
+        <li><a class="nav_item" href="#">Home</a></li>
+        <li><a class="nav_item" href="#">Job Portal</a></li>
+        <li><a class="nav_item" href="donation.html">Donation</a></li>
+        <li><a class="nav_item" href="#">Announcement</a></li>
+      </ul>
     </div>
     <!--    <div id="donation_block">hi</div>-->
-   <div id="outer_container"><h1>Make A Donation</h1>
-<form action="donation">
-<label  id="lable" for="donation_amt">Donation Amount in Rupee</label><br>
-<input  id="input_box" type="number" name="" id="" placeholder=""><br>
+    <div id="outer_container">
+      <h1>Make A Donation</h1>
+      <form action="donation">
+        <label id="lable" for="donation_amt">Donation Amount in Rupee</label
+        ><br />
+        <input
+          id="input_box"
+          type="number"
+          name=""
+          id=""
+          placeholder=""
+        /><br />
 
-
-<label id="payment_details" for="payment_details">Payment Method</label><br>
-<label>
-    <input id="label" type="radio" name="option" value="option1" required>
-    Credit Card
-</label><br>
-<label>
-    <input id="label"   type="radio" name="option" value="option2">
-    UPI
-</label><br>
-<label>
-    <input id="label"    type="radio" name="option" value="option3">
-   Bank Transfer
-</label>
-</form>
-
-</div>
+        <label id="payment_details" for="payment_details">Payment Method</label
+        ><br />
+        <label>
+          <input
+            id="label"
+            type="radio"
+            name="option"
+            value="option1"
+            required
+          />
+          Credit Card </label
+        ><br />
+        <label>
+          <input id="label" type="radio" name="option" value="option2" />
+          UPI </label
+        ><br />
+        <label>
+          <input id="label" type="radio" name="option" value="option3" />
+          Bank Transfer
+        </label>
+      </form>
+    </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

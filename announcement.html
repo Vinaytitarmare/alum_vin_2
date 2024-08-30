@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alumni Connect - Announcements</title>
+    <link rel="stylesheet" href="announcement.css" />
+  </head>
+  <body>
+    <header>
+      <!-- navbar -->
+    <div class="navbar">
+        <div class="logo">
+          <img id="logo_img" src="alum_new_logo.png" alt="Logo" />
+        </div>
+        <ul class="nav_collection">
+          <li><a class="nav_item" href="#">Home</a></li>
+          <li><a class="nav_item" href="#">Job Portal</a></li>
+          <li><a class="nav_item" href="donation.html">Donation</a></li>
+          <li><a class="nav_item" href="#">Announcement</a></li>
+        </ul>
+      </div>
+      <section id="prof">
+        <i id="profile" class="fa-solid fa-user"></i>
+      </section>
+      <button id="menu_button">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+  
+      <div id="sidebar">
+        <button id="close_button">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <ul class="sidebar_nav">
+          <li><a class="nav_item" href="index.html">Home</a></li>
+          <li><a class="nav_item" href="job.html">Job Portal</a></li>
+          <li><a class="nav_item" href="donation.html">Donation</a></li>
+          <li><a class="nav_item" href="announcement.html">Announcement</a></li>
+        </ul>
+      </div>
+      
+
+      <!--Hero Section-->
+    <section class="hero-section">
+      <h1>Stay Updated with the Latest Announcements</h1>
+      <p>All the important updates and news in one place.</p>
+    </section>
+
+    <section class="announcements-section">
+      <div class="search-bar">
+        <input type="text" placeholder="Search announcements..." />
+      </div>
+
+      <div class="filters">
+        <select>
+          <option value="recent">Most Recent</option>
+          <option value="oldest">Oldest</option>
+        </select>
+        <select>
+          <option value="all">All Categories</option>
+          <option value="events">Events</option>
+          <option value="opportunities">Opportunities</option>
+          <option value="general">General News</option>
+        </select>
+      </div>
+
+      <div class="announcement-cards">
+        <div class="card">
+          <h2>Alumni Meetup 2024</h2>
+          <p class="date">August 25, 2024</p>
+          <p>
+            Join us for the annual alumni meetup to reconnect and network...
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+        <div class="card">
+          <h2>Job Fair Announcement</h2>
+          <p class="date">August 20, 2024</p>
+          <p>Don't miss the upcoming job fair with top companies offering...</p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+        <!-- Additional cards can be added here -->
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
