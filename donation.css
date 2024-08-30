@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: block;
+    text-align: center;
+    background: linear-gradient(to right, #202020, #0e4286);
+    background: rgba(24,24,26,255);
+
+}
+#contents{
+   
+    display: block;
+    width: 700px;   
+    margin: 0 auto;
+    margin-top: 20vh;
+
+}
+h1{ 
+    /* color: white; */
+    /* color: linear-gradient(to top, #258eff,     #7d2eff); */
+    font-size: xx-large;
+    font-size: 48px; 
+    font-weight: bold; 
+    background: linear-gradient(to right, #EFECEF, #2F2E2E);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+    
+}
+#donation_req{
+    color: #7D7B7D;
+    font-size: large;
+    padding: auto;
+    /* width: 60%; */
+    margin-top: 35px;
+    word-spacing: 4px;
+    letter-spacing: 0.5px;
+    content:wrap;
+
+}
+#donate_now{
+    border:none;
+border-radius: 20px;
+margin-top: 45px;
+/* size: 5rem; */
+color: #EFECEF;
+width: 120px;
+/* text-size:2px; */
+font: size 25px;
+font-weight: 400;
+font-style: bold;
+padding: 13px;
+/* background: linear-gradient(to top,rgb(91, 15, 73),rgb(185, 19, 146)); */
+/* background: linear-gradient( #258eff, #7d2eff); */
+background: #ff5000;
+}
+#link_donate{
+    text-decoration: none;
+    color:black ;
+}
+b{
+    color: white;
+}
